@@ -1,0 +1,116 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Christopher Castig | @castig
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+  opacity: 0.8;
+  background-size: 20px 20px;
+  background-image:  repeating-linear-gradient(0deg, #dddddd, #dddddd 1px, #e5e5f7 1px, #e5e5f7);
+}
+
+h1,h2{
+  margin: 0;
+}
+
+.title{
+  margin-top: 20px;
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: -4px;
+}
+
+.subtitle{
+  font-size: 16px;
+  margin-bottom: 36px;
+  font-weight: lighter;
+}
+
+.container{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.main{
+  background: white;
+  border-radius: 16px;
+  margin: 0 16px 0 0;
+  float: left;
+  padding: 25px;
+}
+
+.sidebar{
+  width: 300px;
+  float: left;
+  background:white;
+  border-radius: 16px;
+  padding: 16px
+}
+
+.profile{
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+a{
+  text-decoration: none;
+  color: orangered;
+}
+
+.sidetext{
+  margin-bottom: 0;
+}
+
+blockquote{
+	background: #f9f9f9;
+	border-left: 5px solid #ccc;
+	margin: 1.5em 10px;
+	padding: 15px;
+	quotes: "\201C""\201D""\2018""\2019";
+
+}
+blockquote:before{
+
+	color: black;
+  content: open-quote;
+  font-size: 5em;
+  line-height: .1em;
+  vertical-align: -40px;
+  
+}
+
+.blogtitle{
+  margin-bottom: 2px;
+  font-size: 36px;
+}
+
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+
+
